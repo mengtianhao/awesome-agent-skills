@@ -1,5 +1,7 @@
 # Awesome Agent Skills
 
+[中文](README_zh.md)
+
 A personal index of useful AI agent skills, skill repositories, plugins, and related toolkits.
 
 This repository tracks where each skill comes from, what it does, how to install it, and whether it overlaps with skills already installed locally.
@@ -37,4 +39,3 @@ Each entry should include:
 ## Machine-Readable Data
 
 Structured records are stored in [data/skills.json](data/skills.json).
-
