@@ -155,5 +155,65 @@
       "Repository README says maintenance is temporarily paused until early July."
     ],
     "last_checked": "2026-06-19"
+  },
+  {
+    "name": "Visio Copy",
+    "slug": "visio-copy",
+    "repository": "https://github.com/zwj276765037-lab/Visio-copy",
+    "documentation": "https://github.com/zwj276765037-lab/Visio-copy/blob/main/README.md",
+    "english_documentation": "https://github.com/zwj276765037-lab/Visio-copy/blob/main/README.en.md",
+    "skill_file": "https://github.com/zwj276765037-lab/Visio-copy/blob/main/SKILL.md",
+    "type": "codex-skill",
+    "categories": [
+      "diagram-redraw",
+      "visio",
+      "technical-figures",
+      "hardware-diagrams",
+      "vectorization",
+      "windows-automation"
+    ],
+    "skills": [
+      "visio-copy"
+    ],
+    "requirements": [
+      "Windows",
+      "Microsoft Visio desktop",
+      "PowerShell",
+      "Python 3.10+",
+      "requirements.txt dependencies"
+    ],
+    "local_overlap": [
+      {
+        "skill": "visio-copy",
+        "overlaps_with": [
+          "nature-figure"
+        ],
+        "level": "medium"
+      },
+      {
+        "skill": "visio-copy",
+        "overlaps_with": [
+          "imagegen"
+        ],
+        "level": "low-medium"
+      },
+      {
+        "skill": "visio-copy",
+        "overlaps_with": [
+          "presentations",
+          "docx",
+          "pdf"
+        ],
+        "level": "low"
+      }
+    ],
+    "installed": false,
+    "install_command": "git clone https://github.com/zwj276765037-lab/Visio-copy.git %USERPROFILE%/.codex/skills/visio-copy",
+    "notes": [
+      "Redraws raster technical diagrams into editable native Microsoft Visio shapes.",
+      "Final artifacts must not be pasted screenshots, source-image underlays, raster traces, SVG/PDF trace imports, or auto-vectorized copies.",
+      "Requires Microsoft Visio desktop and Windows COM automation."
+    ],
+    "last_checked": "2026-06-19"
   }
 ]
