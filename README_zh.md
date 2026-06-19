@@ -11,6 +11,7 @@
 | 名称 | 类型 | 主要用途 | 条目 |
 | --- | --- | --- | --- |
 | MiniMax Office Skills | 技能仓库 | Office 文档、前端/媒体工作流、移动端、Shader | [skills/minimax-office-skills.md](skills/minimax-office-skills.md) |
+| PaperSpine | 技能套件 | 学术论文/报告写作、引用支持、LaTeX/PDF/Word 审计 | [skills/paper-spine_zh.md](skills/paper-spine_zh.md) |
 
 ## 分类
 

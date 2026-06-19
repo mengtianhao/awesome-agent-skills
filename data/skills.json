@@ -31,27 +31,39 @@
     "local_overlap": [
       {
         "skill": "minimax-docx",
-        "overlaps_with": ["docx", "documents"],
+        "overlaps_with": [
+          "docx",
+          "documents"
+        ],
         "level": "high"
       },
       {
         "skill": "minimax-pdf",
-        "overlaps_with": ["pdf"],
+        "overlaps_with": [
+          "pdf"
+        ],
         "level": "high"
       },
       {
         "skill": "pptx-generator",
-        "overlaps_with": ["presentations", "nature-paper2ppt"],
+        "overlaps_with": [
+          "presentations",
+          "nature-paper2ppt"
+        ],
         "level": "high"
       },
       {
         "skill": "minimax-xlsx",
-        "overlaps_with": ["spreadsheets"],
+        "overlaps_with": [
+          "spreadsheets"
+        ],
         "level": "high"
       },
       {
         "skill": "frontend-dev",
-        "overlaps_with": ["frontend-design"],
+        "overlaps_with": [
+          "frontend-design"
+        ],
         "level": "medium-high"
       }
     ],
@@ -59,6 +71,89 @@
       "The document skill is named minimax-docx, not minimax-doc."
     ],
     "last_checked": "2026-06-19"
+  },
+  {
+    "name": "PaperSpine",
+    "slug": "paper-spine",
+    "repository": "https://github.com/WUBING2023/PaperSpine",
+    "documentation": "https://github.com/WUBING2023/PaperSpine/blob/main/README.md",
+    "english_documentation": "https://github.com/WUBING2023/PaperSpine/blob/main/README.en.md",
+    "codex_skills_path": "https://github.com/WUBING2023/PaperSpine/tree/main/dist/codex/skills",
+    "type": "skill-suite",
+    "categories": [
+      "academic-writing",
+      "paper-writing",
+      "citation",
+      "latex",
+      "reports",
+      "translation",
+      "humanization"
+    ],
+    "skills": [
+      "paper-spine",
+      "paper-spine-ui",
+      "paper-spine-intake",
+      "paper-spine-research",
+      "paper-spine-citation",
+      "paper-spine-rewrite",
+      "paper-spine-build",
+      "paper-spine-latex",
+      "paper-spine-audit",
+      "paper-spine-translate",
+      "paper-spine-humanize",
+      "paper-spine-update"
+    ],
+    "local_overlap": [
+      {
+        "skill": "paper-spine",
+        "overlaps_with": [
+          "nature-writing",
+          "nature-polishing"
+        ],
+        "level": "high"
+      },
+      {
+        "skill": "paper-spine-citation",
+        "overlaps_with": [
+          "nature-citation",
+          "nature-academic-search"
+        ],
+        "level": "medium-high"
+      },
+      {
+        "skill": "paper-spine-audit",
+        "overlaps_with": [
+          "nature-reviewer",
+          "nature-response"
+        ],
+        "level": "medium"
+      },
+      {
+        "skill": "paper-spine-latex",
+        "overlaps_with": [
+          "nature-polishing",
+          "pdf",
+          "docx"
+        ],
+        "level": "medium"
+      },
+      {
+        "skill": "paper-spine-humanize",
+        "overlaps_with": [
+          "humanizer",
+          "humanizer-zh"
+        ],
+        "level": "medium"
+      }
+    ],
+    "installed": true,
+    "installed_date": "2026-06-19",
+    "install_location": "C:/Users/Lenovo/.codex/skills/paper-spine*",
+    "notes": [
+      "Motivation-driven academic paper/report writing suite.",
+      "Codex install uses dist/codex/skills/* as a flat suite.",
+      "Repository README says maintenance is temporarily paused until early July."
+    ],
+    "last_checked": "2026-06-19"
   }
 ]
-

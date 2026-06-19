@@ -11,6 +11,7 @@ This repository tracks where each skill comes from, what it does, how to install
 | Name | Type | Main Use | Entry |
 | --- | --- | --- | --- |
 | MiniMax Office Skills | Skill repository | Office documents, frontend/media workflows, mobile, shaders | [skills/minimax-office-skills.md](skills/minimax-office-skills.md) |
+| PaperSpine | Skill suite | Academic paper/report writing, citation support, LaTeX/PDF/Word audit | [skills/paper-spine.md](skills/paper-spine.md) |
 
 ## Categories
 
