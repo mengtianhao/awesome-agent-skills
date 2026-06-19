@@ -1,0 +1,64 @@
+[
+  {
+    "name": "MiniMax Office Skills",
+    "slug": "minimax-office-skills",
+    "repository": "https://github.com/freeskychenjun/MiniMax-Office-skills",
+    "upstream_repository": "https://github.com/MiniMax-AI/skills",
+    "documentation": "https://github.com/freeskychenjun/MiniMax-Office-skills/blob/main/README_zh.md",
+    "install_guide": "https://github.com/freeskychenjun/MiniMax-Office-skills/blob/main/.codex/INSTALL.md",
+    "type": "skill-repository",
+    "categories": [
+      "office",
+      "documents",
+      "frontend",
+      "media-generation",
+      "mobile",
+      "graphics"
+    ],
+    "skills": [
+      "frontend-dev",
+      "fullstack-dev",
+      "android-native-dev",
+      "ios-application-dev",
+      "shader-dev",
+      "gif-sticker-maker",
+      "minimax-pdf",
+      "pptx-generator",
+      "minimax-xlsx",
+      "minimax-docx",
+      "minimax-multimodal-toolkit"
+    ],
+    "local_overlap": [
+      {
+        "skill": "minimax-docx",
+        "overlaps_with": ["docx", "documents"],
+        "level": "high"
+      },
+      {
+        "skill": "minimax-pdf",
+        "overlaps_with": ["pdf"],
+        "level": "high"
+      },
+      {
+        "skill": "pptx-generator",
+        "overlaps_with": ["presentations", "nature-paper2ppt"],
+        "level": "high"
+      },
+      {
+        "skill": "minimax-xlsx",
+        "overlaps_with": ["spreadsheets"],
+        "level": "high"
+      },
+      {
+        "skill": "frontend-dev",
+        "overlaps_with": ["frontend-design"],
+        "level": "medium-high"
+      }
+    ],
+    "notes": [
+      "The document skill is named minimax-docx, not minimax-doc."
+    ],
+    "last_checked": "2026-06-19"
+  }
+]
+
