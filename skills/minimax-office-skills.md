@@ -1,5 +1,7 @@
 # MiniMax Office Skills
 
+[中文](minimax-office-skills_zh.md)
+
 ## Links
 
 - Repository: https://github.com/freeskychenjun/MiniMax-Office-skills
@@ -64,4 +66,3 @@ Restart Codex after installation.
 
 - The document skill is named `minimax-docx`, not `minimax-doc`.
 - Last checked: 2026-06-19
-
