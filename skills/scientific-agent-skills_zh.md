@@ -24,6 +24,35 @@ Scientific Agent Skills 是 K-Dense AI 维护的大型开放 Agent Skills 仓库
 - 材料科学、化学、物理、天文学、工程仿真、地理空间科学、遥感、实验室自动化和研究方法。
 - 科研沟通，包括文献综述、同行评议、科学写作、文档处理、海报、幻灯片、示意图、引用管理和图表。
 
+## 与我的研究方向相关的技能
+
+我的研究方向是医学自然语言处理和医学信号分析，重点包括 ECG 和医学图像。该仓库中最相关的技能如下：
+
+| Skill | 相关方向 | 说明 |
+| --- | --- | --- |
+| `transformers` | 医学 NLP | Hugging Face Transformers 工作流，包括模型加载、tokenizer、pipeline、文本生成、微调和多模态模型使用。适合临床文本分类、命名实体识别、医学报告理解和医学大模型实验。 |
+| `pyhealth` | 医疗机器学习、EHR、信号、影像 | 面向临床深度学习的工具包，覆盖 EHR、生理信号和医学影像数据集。适合 MIMIC-III/IV、eICU、OMOP、EHRShot、SleepEDF、ChestXray14、死亡/再入院预测、ICD 编码、睡眠分期、EEG 事件和医学编码映射。 |
+| `neurokit2` | ECG 与生理信号 | 生理信号处理工具包，支持 ECG、PPG、EEG、EDA、RSP、EMG 和 EOG。直接适合 ECG 清洗、R 峰检测、ECG delineation、HRV、信号质量评估和多模态生理信号分析。 |
+| `aeon` | 时间序列机器学习 | 时间序列机器学习工具包，支持分类、回归、聚类、预测、异常检测、分割和相似性搜索。适合 ECG beat/record 分类、时序表型建模和生理时间序列基准实验。 |
+| `timesfm-forecasting` | 时间序列预测 | Google TimesFM 基础模型的零样本时间序列预测。适合生命体征、传感器流和其他单变量医学时间序列的探索性预测。 |
+| `pydicom` | 医学影像 | Python DICOM 工具，用于读取、写入、匿名化、转换和处理 CT、MRI、X-ray、超声、PET 等医学影像数据。是放射影像管线的核心基础技能。 |
+| `imaging-data-commons` | 医学影像数据集 | 查询和下载 NCI Imaging Data Commons 的公开癌症影像数据。适合放射影像 AI 数据发现、队列构建、元数据筛选和数据访问溯源。 |
+| `pathml` | 计算病理 | 全切片病理图像分析工具，支持 WSI、染色归一化、细胞核分割、组织图、多重成像和病理机器学习工作流。 |
+| `histolab` | 病理图像预处理 | 轻量级 WSI 预处理工具，支持组织检测、tile 提取和 H&E 切片准备。适合快速构建病理图像数据集。 |
+| `clinical-reports` | 临床 NLP 与报告 | 面向放射、病理、检验、病例、临床试验、SOAP、出院小结等临床报告的模板和校验。适合理解报告结构，以及构建报告生成/信息抽取流程。 |
+| `clinical-decision-support` | 临床证据与队列 | 支持队列分析、biomarker 分层、结局分析、生存曲线和循证治疗推荐报告。适合围绕 NLP 或影像特征做临床研究分析。 |
+| `bids` | 生物医学数据组织 | Brain Imaging Data Structure 支持 MRI、EEG、MEG、iEEG、PET、显微成像、NIRS、EMG 等数据。适合组织多模态信号和影像研究数据。 |
+| `scikit-learn` | 传统机器学习基线 | 传统机器学习 pipeline、预处理、模型评估、监督/无监督学习。适合 ECG 特征、radiomics 特征和临床文本 embedding 的强基线。 |
+| `pytorch-lightning` | 深度学习训练 | 结构化 PyTorch 训练框架，支持可扩展实验、日志、callback、分布式训练和可复现实验代码。适合 NLP、ECG 和影像模型训练。 |
+| `shap` | 医学 AI 可解释性 | 基于 SHAP 的模型解释，包括特征重要性、偏差分析和预测解释。适合临床模型可解释性和结果报告。 |
+| `statistical-analysis` | 医学研究统计 | 假设检验、前提假设检查、功效分析和学术报告。适合医学 AI 评估研究。 |
+| `statsmodels` | 统计建模 | 回归、GLM、混合模型、ARIMA、诊断和统计推断。适合临床结局建模和时间序列/统计分析。 |
+| `database-lookup` | 生物医学数据库 | 从有文档的公共数据库进行可复现检索，包括 ClinicalTrials、FDA、WHO、ClinVar、OMIM、PubChem 等生物医学和监管资源。 |
+| `literature-review` | 文献综述 | 面向 PubMed、arXiv、bioRxiv、Semantic Scholar 等来源的系统综述工作流。适合医学 NLP、ECG AI 和医学影像综述。 |
+| `venue-templates` | 医学论文准备 | 面向期刊、会议、海报和基金的模板与格式指南，包括医学期刊风格和 NIH 相关材料。 |
+
+建议优先检查的短名单：`pyhealth`、`neurokit2`、`pydicom`、`transformers`、`aeon`、`imaging-data-commons`、`pathml`、`histolab`、`shap`、`literature-review`。
+
 ## 安装说明
 
 当前未安装到本地。

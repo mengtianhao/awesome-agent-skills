@@ -24,6 +24,35 @@ The README describes the repository as a collection of 148 ready-to-use scientif
 - Materials science, chemistry, physics, astronomy, engineering, simulation, geospatial science, remote sensing, laboratory automation, and research methodology.
 - Scientific communication workflows such as literature review, peer review, scientific writing, document processing, posters, slides, schematics, citation management, and diagrams.
 
+## Relevant Skills for My Research
+
+My current research interests are medical natural language processing and medical signal analysis, especially ECG and medical imaging. The most relevant skills in this repository are:
+
+| Skill | Relevance | Description |
+| --- | --- | --- |
+| `transformers` | Medical NLP | Hugging Face Transformers workflows for loading models, tokenizers, pipelines, text generation, fine-tuning, and multimodal model use. Useful for clinical text classification, named entity recognition, medical report understanding, and medical LLM experiments. |
+| `pyhealth` | Healthcare ML, EHR, signal, imaging | Clinical deep learning toolkit covering EHR, physiological signal, and medical imaging datasets. Relevant for MIMIC-III/IV, eICU, OMOP, EHRShot, SleepEDF, ChestXray14, mortality/readmission prediction, ICD coding, sleep staging, EEG events, and medical code mapping. |
+| `neurokit2` | ECG and biosignals | Biosignal processing toolkit for ECG, PPG, EEG, EDA, RSP, EMG, and EOG. Directly relevant for ECG cleaning, R-peak detection, ECG delineation, heart-rate variability, signal quality assessment, and multimodal physiological signal analysis. |
+| `aeon` | Time-series ML | Time-series machine learning toolkit for classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Useful for ECG beat/record classification, temporal phenotype modeling, and physiological time-series benchmarks. |
+| `timesfm-forecasting` | Time-series forecasting | Zero-shot time-series forecasting with Google's TimesFM foundation model. Useful for exploratory forecasting of vitals, sensor streams, and other univariate medical time series. |
+| `pydicom` | Medical imaging | Python DICOM toolkit for reading, writing, anonymizing, converting, and processing CT, MRI, X-ray, ultrasound, PET, and other medical imaging data. Core utility for radiology image pipelines. |
+| `imaging-data-commons` | Medical imaging datasets | Query and download public cancer imaging data from NCI Imaging Data Commons. Useful for radiology AI dataset discovery, cohort construction, metadata filtering, and data access provenance. |
+| `pathml` | Computational pathology | Full pathology image analysis toolkit for whole-slide images, stain normalization, nucleus segmentation, tissue graphs, multiplex imaging, and pathology ML workflows. |
+| `histolab` | Pathology preprocessing | Lightweight WSI preprocessing toolkit for tissue detection, tile extraction, and H&E slide preparation. Useful for quick pathology dataset preparation. |
+| `clinical-reports` | Clinical NLP and reports | Templates and validation for radiology, pathology, lab, case, trial, SOAP, discharge, and other clinical reports. Useful for understanding report structure and building report generation/extraction workflows. |
+| `clinical-decision-support` | Clinical evidence and cohorts | Cohort analysis, biomarker stratification, outcomes analysis, survival curves, and evidence-based treatment recommendation reports. Useful for clinical research analytics around NLP or imaging-derived features. |
+| `bids` | Biomedical data organization | Brain Imaging Data Structure support for MRI, EEG, MEG, iEEG, PET, microscopy, NIRS, EMG, and related biomedical datasets. Useful when organizing multimodal signal and imaging studies. |
+| `scikit-learn` | Classical ML baseline | Classical ML pipelines, preprocessing, model evaluation, supervised/unsupervised learning. Useful for strong baselines on ECG features, radiomics features, and clinical text embeddings. |
+| `pytorch-lightning` | Deep learning training | Structured PyTorch training framework for scalable experiments, logging, callbacks, distributed training, and reproducible model code. Useful for NLP, ECG, and imaging model training. |
+| `shap` | Medical AI explainability | SHAP-based model interpretation for feature importance, bias analysis, and prediction explanation. Useful for clinical model interpretability and reporting. |
+| `statistical-analysis` | Research statistics | Guided hypothesis testing, assumption checks, power analysis, and academic reporting. Useful for medical AI evaluation studies. |
+| `statsmodels` | Statistical modeling | Regression, GLM, mixed models, ARIMA, diagnostics, and inferential modeling. Useful for clinical outcome modeling and time-series/statistical analysis. |
+| `database-lookup` | Biomedical databases | Reproducible retrieval from documented public databases, including biomedical and regulatory sources such as ClinicalTrials, FDA, WHO, ClinVar, OMIM, PubChem, and related resources. |
+| `literature-review` | Literature review | Systematic literature review workflows across PubMed, arXiv, bioRxiv, Semantic Scholar, and other sources. Useful for medical NLP, ECG AI, and medical imaging review work. |
+| `venue-templates` | Medical manuscript preparation | Templates and formatting guidance for journals, conferences, posters, and grants, including medical journal styles and NIH-related materials. |
+
+Recommended shortlist to inspect first: `pyhealth`, `neurokit2`, `pydicom`, `transformers`, `aeon`, `imaging-data-commons`, `pathml`, `histolab`, `shap`, and `literature-review`.
+
 ## Installation Notes
 
 Not installed locally.

@@ -181,6 +181,120 @@
       "scientific Python package skills",
       "scientific integration skills"
     ],
+    "research_focus_relevant_skills": [
+      {
+        "skill": "transformers",
+        "area": "medical-nlp",
+        "description": "Hugging Face Transformers workflows for model loading, tokenizers, pipelines, text generation, fine-tuning, and multimodal model use; relevant for clinical text classification, NER, report understanding, and medical LLM experiments."
+      },
+      {
+        "skill": "pyhealth",
+        "area": "healthcare-ml-ehr-signal-imaging",
+        "description": "Clinical deep learning toolkit for EHR, physiological signal, and medical imaging datasets including MIMIC, eICU, OMOP, EHRShot, SleepEDF, ChestXray14, ICD coding, sleep staging, EEG events, and medical code mapping."
+      },
+      {
+        "skill": "neurokit2",
+        "area": "ecg-biosignal-processing",
+        "description": "Biosignal processing for ECG, PPG, EEG, EDA, RSP, EMG, and EOG; directly useful for ECG cleaning, R-peak detection, ECG delineation, HRV, signal quality assessment, and multimodal physiological signal analysis."
+      },
+      {
+        "skill": "aeon",
+        "area": "time-series-ml",
+        "description": "Time-series machine learning for classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search; useful for ECG and physiological time-series modeling."
+      },
+      {
+        "skill": "timesfm-forecasting",
+        "area": "time-series-forecasting",
+        "description": "Zero-shot time-series forecasting with Google's TimesFM foundation model; useful for exploratory forecasting of vitals, sensor streams, and univariate medical time series."
+      },
+      {
+        "skill": "pydicom",
+        "area": "medical-imaging-dicom",
+        "description": "Python DICOM toolkit for reading, writing, anonymizing, converting, and processing CT, MRI, X-ray, ultrasound, PET, and other medical imaging data."
+      },
+      {
+        "skill": "imaging-data-commons",
+        "area": "medical-imaging-datasets",
+        "description": "Query and download public cancer imaging data from NCI Imaging Data Commons; useful for radiology AI dataset discovery, cohort construction, metadata filtering, and provenance."
+      },
+      {
+        "skill": "pathml",
+        "area": "computational-pathology",
+        "description": "Whole-slide pathology image analysis toolkit for WSI, stain normalization, nucleus segmentation, tissue graphs, multiplex imaging, and pathology ML workflows."
+      },
+      {
+        "skill": "histolab",
+        "area": "pathology-preprocessing",
+        "description": "Lightweight WSI preprocessing for tissue detection, tile extraction, and H&E slide dataset preparation."
+      },
+      {
+        "skill": "clinical-reports",
+        "area": "clinical-nlp-reports",
+        "description": "Clinical report templates and validation for radiology, pathology, lab, case, trial, SOAP, and discharge documentation; useful for report structure, generation, and extraction workflows."
+      },
+      {
+        "skill": "clinical-decision-support",
+        "area": "clinical-evidence-cohorts",
+        "description": "Cohort analysis, biomarker stratification, outcome analysis, survival curves, and evidence-based treatment recommendation reports for clinical research analytics."
+      },
+      {
+        "skill": "bids",
+        "area": "biomedical-data-organization",
+        "description": "Brain Imaging Data Structure support for organizing MRI, EEG, MEG, iEEG, PET, microscopy, NIRS, EMG, and related biomedical datasets."
+      },
+      {
+        "skill": "scikit-learn",
+        "area": "classical-ml-baselines",
+        "description": "Classical machine learning pipelines, preprocessing, model evaluation, supervised and unsupervised learning; useful for ECG features, radiomics features, and clinical text embeddings."
+      },
+      {
+        "skill": "pytorch-lightning",
+        "area": "deep-learning-training",
+        "description": "Structured PyTorch training framework for scalable experiments, logging, callbacks, distributed training, and reproducible NLP, ECG, and imaging model training."
+      },
+      {
+        "skill": "shap",
+        "area": "medical-ai-explainability",
+        "description": "SHAP-based model interpretation for feature importance, bias analysis, and prediction explanation in clinical AI models."
+      },
+      {
+        "skill": "statistical-analysis",
+        "area": "research-statistics",
+        "description": "Guided hypothesis testing, assumption checks, power analysis, and academic reporting for medical AI evaluation studies."
+      },
+      {
+        "skill": "statsmodels",
+        "area": "statistical-modeling",
+        "description": "Regression, GLM, mixed models, ARIMA, diagnostics, and inferential modeling for clinical outcomes and time-series/statistical analysis."
+      },
+      {
+        "skill": "database-lookup",
+        "area": "biomedical-databases",
+        "description": "Reproducible retrieval from documented public databases including biomedical and regulatory sources such as ClinicalTrials, FDA, WHO, ClinVar, OMIM, and PubChem."
+      },
+      {
+        "skill": "literature-review",
+        "area": "literature-review",
+        "description": "Systematic literature review workflows across PubMed, arXiv, bioRxiv, Semantic Scholar, and other sources for medical NLP, ECG AI, and medical imaging."
+      },
+      {
+        "skill": "venue-templates",
+        "area": "medical-manuscript-preparation",
+        "description": "Templates and formatting guidance for journals, conferences, posters, and grants, including medical journal styles and NIH-related materials."
+      }
+    ],
+    "research_focus_shortlist": [
+      "pyhealth",
+      "neurokit2",
+      "pydicom",
+      "transformers",
+      "aeon",
+      "imaging-data-commons",
+      "pathml",
+      "histolab",
+      "shap",
+      "literature-review"
+    ],
     "installed": false,
     "status": "indexed-not-installed",
     "install_command": "npx skills add K-Dense-AI/scientific-agent-skills",
