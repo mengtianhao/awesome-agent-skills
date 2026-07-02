@@ -12,6 +12,7 @@ This repository tracks where each skill comes from, what it does, how to install
 | --- | --- | --- | --- |
 | MiniMax Office Skills | Skill repository | Office documents, frontend/media workflows, mobile, shaders | [skills/minimax-office-skills.md](skills/minimax-office-skills.md) |
 | PaperSpine | Skill suite | Academic paper/report writing, citation support, LaTeX/PDF/Word audit | [skills/paper-spine.md](skills/paper-spine.md) |
+| Scientific Agent Skills | Skill repository | Scientific research workflows, databases, Python package guidance, scientific communication | [skills/scientific-agent-skills.md](skills/scientific-agent-skills.md) |
 | Visio Copy | Codex skill | Redraw raster technical diagrams into editable Microsoft Visio shapes | [skills/visio-copy.md](skills/visio-copy.md) |
 | Patent Disclosure Skill | Skill package | Patent disclosure / invention intake drafting, pending evaluation | [skills/patent-disclosure-skill.md](skills/patent-disclosure-skill.md) |
 

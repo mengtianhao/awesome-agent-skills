@@ -157,6 +157,81 @@
     "last_checked": "2026-06-19"
   },
   {
+    "name": "Scientific Agent Skills",
+    "slug": "scientific-agent-skills",
+    "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "documentation": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/README.md",
+    "skills_directory": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills",
+    "type": "skill-repository",
+    "categories": [
+      "scientific-research",
+      "bioinformatics",
+      "cheminformatics",
+      "drug-discovery",
+      "clinical-research",
+      "scientific-computing",
+      "data-analysis",
+      "scientific-communication",
+      "databases"
+    ],
+    "skills": [
+      "148 scientific and research skills",
+      "database-lookup",
+      "scientific writing and communication tools",
+      "scientific Python package skills",
+      "scientific integration skills"
+    ],
+    "installed": false,
+    "status": "indexed-not-installed",
+    "install_command": "npx skills add K-Dense-AI/scientific-agent-skills",
+    "alternate_install_commands": [
+      "gh skill install K-Dense-AI/scientific-agent-skills",
+      "gh skill install K-Dense-AI/scientific-agent-skills --agent codex"
+    ],
+    "local_overlap": [
+      {
+        "skill": "scientific writing and communication",
+        "overlaps_with": [
+          "nature-writing",
+          "nature-polishing",
+          "nature-reader",
+          "nature-citation",
+          "nature-reviewer",
+          "nature-response",
+          "paper-spine"
+        ],
+        "level": "high"
+      },
+      {
+        "skill": "data analysis and visualization",
+        "overlaps_with": [
+          "nature-figure",
+          "spreadsheets"
+        ],
+        "level": "medium"
+      },
+      {
+        "skill": "document and presentation workflows",
+        "overlaps_with": [
+          "docx",
+          "documents",
+          "presentations",
+          "pdf"
+        ],
+        "level": "low-medium"
+      }
+    ],
+    "notes": [
+      "Large scientific Agent Skills collection maintained by K-Dense AI.",
+      "README says the repository contains 148 ready-to-use scientific and research skills and 100+ scientific/database resources.",
+      "Because the collection is large and includes skills that may install packages or access external APIs, review individual SKILL.md files before installation.",
+      "Indexed from repository README; not installed locally."
+    ],
+    "license": "MIT",
+    "stars_when_checked": "29.8k",
+    "last_checked": "2026-07-02"
+  },
+  {
     "name": "Visio Copy",
     "slug": "visio-copy",
     "repository": "https://github.com/zwj276765037-lab/Visio-copy",
