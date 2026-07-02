@@ -215,5 +215,49 @@
       "Requires Microsoft Visio desktop and Windows COM automation."
     ],
     "last_checked": "2026-06-19"
+  },
+  {
+    "name": "Patent Disclosure Skill",
+    "slug": "patent-disclosure-skill",
+    "skills_entry": "https://skills.sh/handsomestwei/patent-disclosure-skill/patent-disclosure-skill",
+    "install_identifier": "handsomestwei/patent-disclosure-skill@patent-disclosure-skill",
+    "type": "skill-package",
+    "categories": [
+      "patent",
+      "legal-tech",
+      "technical-writing",
+      "invention-disclosure"
+    ],
+    "skills": [
+      "patent-disclosure-skill"
+    ],
+    "installed": false,
+    "status": "pending-evaluation",
+    "install_command": "npx skills add handsomestwei/patent-disclosure-skill@patent-disclosure-skill -g -y",
+    "local_overlap": [
+      {
+        "skill": "patent-disclosure-skill",
+        "overlaps_with": [
+          "nature-writing",
+          "nature-polishing"
+        ],
+        "level": "medium"
+      },
+      {
+        "skill": "patent-disclosure-skill",
+        "overlaps_with": [
+          "docx",
+          "documents"
+        ],
+        "level": "low-medium"
+      }
+    ],
+    "notes": [
+      "Found through Skills CLI; not installed locally.",
+      "Actual SKILL.md has not been reviewed in this workspace.",
+      "Use for patent disclosure drafting only with professional legal review."
+    ],
+    "install_count_when_checked": 273,
+    "last_checked": "2026-07-02"
   }
 ]

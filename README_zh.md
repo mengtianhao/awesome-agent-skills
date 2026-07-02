@@ -13,6 +13,7 @@
 | MiniMax Office Skills | 技能仓库 | Office 文档、前端/媒体工作流、移动端、Shader | [skills/minimax-office-skills.md](skills/minimax-office-skills.md) |
 | PaperSpine | 技能套件 | 学术论文/报告写作、引用支持、LaTeX/PDF/Word 审计 | [skills/paper-spine_zh.md](skills/paper-spine_zh.md) |
 | Visio Copy | Codex 技能 | 将 raster 技术图重画为可编辑 Microsoft Visio shapes | [skills/visio-copy_zh.md](skills/visio-copy_zh.md) |
+| Patent Disclosure Skill | 技能包 | 专利技术交底 / 发明信息整理，待评估 | [skills/patent-disclosure-skill_zh.md](skills/patent-disclosure-skill_zh.md) |
 
 ## 分类
 
